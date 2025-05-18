@@ -1,4 +1,4 @@
-//package com.example.calculator;
+package example.calculator;
 
 import javax.swing.*;
 import java.awt.*;

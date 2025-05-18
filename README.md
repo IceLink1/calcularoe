@@ -1,101 +1,101 @@
-Калькулятор на Java с графическим интерфейсом
+Java GUI Calculator with Gradle
 
 Calculator Screenshot
 
-Простой, но функциональный калькулятор с графическим интерфейсом, написанный на Java с использованием Swing и собранный с помощью Gradle.
-Особенности
+A simple yet functional calculator with graphical user interface written in Java using Swing and built with Gradle.
+Features
 
-    Все основные арифметические операции (+, -, *, /)
+    All basic arithmetic operations (+, -, *, /)
 
-    Дополнительные функции:
+    Additional functions:
 
-        Очистка (C)
+        Clear (C)
 
-        Удаление последнего символа (⌫)
+        Backspace (⌫)
 
-        Смена знака (±)
+        Sign change (±)
 
-        Квадратный корень (√)
+        Square root (√)
 
-        Работа с десятичными числами
+        Decimal number support
 
-    Современный интерфейс (используется FlatLaf)
+    Modern UI (using FlatLaf)
 
-    Обработка ошибок (деление на ноль, корень из отрицательного числа)
+    Error handling (division by zero, square root of negative numbers)
 
-Требования
+Requirements
 
-    Java JDK 11 или выше
+    Java JDK 11 or higher
 
-    Gradle 7.0 или выше
+    Gradle 7.0 or higher
 
-Установка и запуск
+Installation & Running
 
-    Клонируйте репозиторий:
+    Clone the repository:
     bash
 
-git clone https://github.com/ваш-репозиторий/calculator.git
+git clone https://github.com/your-repository/calculator.git
 cd calculator
 
-Соберите проект:
+Build the project:
 bash
 
 gradle build
 
-Запустите приложение:
+Run the application:
 bash
 
 gradle run
 
-Или используйте собранный JAR:
+Or use the built JAR:
 bash
 
     java -jar build/libs/calculator-1.0-SNAPSHOT.jar
 
-Сборка исполняемого JAR
+Building Executable JAR
 
-Чтобы создать standalone JAR файл:
+To create a standalone JAR file:
 bash
 
 gradle jar
 
-Собранный JAR будет находиться в build/libs/calculator-1.0-SNAPSHOT.jar
-Структура проекта
+The built JAR will be located at build/libs/calculator-1.0-SNAPSHOT.jar
+Project Structure
 
 ```
 calculator/
 ├── build.gradle
 ├── README.md
 └── src/
-    └── main/
-        ├── java/
-        │   └── com/
-        │       └── example/
-        │           └── calculator/
-        │               └── CalculatorApp.java
-        └── resources/
+└── main/
+├── java/
+│   └── com/
+│       └── example/
+│           └── calculator/
+│               └── CalculatorApp.java
+└── resources/
 ```
 
-Используемые технологии
+Technologies Used
 
-    Java Swing - для графического интерфейса
+    Java Swing - for GUI
 
-    FlatLaf - для современного оформления
+    FlatLaf - for modern styling
 
-    Gradle - для сборки проекта
+    Gradle - for project building
 
-Возможные улучшения
+Possible Improvements
 
-    Добавление научных функций (степени, тригонометрия)
+    Adding scientific functions (powers, trigonometry)
 
-    Поддержка скобок и сложных выражений
+    Support for parentheses and complex expressions
 
-    История вычислений
+    Calculation history
 
-    Темная тема
+    Dark theme
 
-    Поддержка горячих клавиш
+    Hotkey support
 
-Лицензия
+License
 
-Этот проект распространяется под лицензией MIT. См. файл LICENSE для получения дополнительной информации.
+This project is licensed under the MIT License. See the LICENSE file for more information.

@@ -62,17 +62,19 @@ gradle jar
 Собранный JAR будет находиться в build/libs/calculator-1.0-SNAPSHOT.jar
 Структура проекта
 
+```
 calculator/
 ├── build.gradle
 ├── README.md
 └── src/
-└── main/
-├── java/
-│   └── com/
-│       └── example/
-│           └── calculator/
-│               └── CalculatorApp.java
-└── resources/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── example/
+        │           └── calculator/
+        │               └── CalculatorApp.java
+        └── resources/
+```
 
 Используемые технологии
 
